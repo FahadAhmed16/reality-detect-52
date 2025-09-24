@@ -31,7 +31,7 @@ const DocumentationSection = () => {
     });
     
     // Simulate file download by opening a new tab
-    const downloadUrl = `https://github.com/your-repo/deepfake-detector/releases/download/v1.0/${title.toLowerCase().replace(/\s+/g, '-')}.${type.toLowerCase()}`;
+    const downloadUrl = `https://github.com/user-attachments/files/22524427/documentation.pdf/${title.toLowerCase().replace(/\s+/g, '-')}.${type.toLowerCase()}`;
     window.open(downloadUrl, '_blank');
   };
 
